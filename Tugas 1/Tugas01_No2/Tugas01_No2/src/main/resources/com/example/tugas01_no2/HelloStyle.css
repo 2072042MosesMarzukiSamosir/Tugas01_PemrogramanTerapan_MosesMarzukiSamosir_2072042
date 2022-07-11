@@ -1,0 +1,10 @@
+.mainpane{
+    -fx-background-color: orange;
+}
+.highlight{
+    -fx-background-color: grey;
+}
+.btn{
+    -fx-background-radius: 15;
+    -fx-background-color: grey;
+}

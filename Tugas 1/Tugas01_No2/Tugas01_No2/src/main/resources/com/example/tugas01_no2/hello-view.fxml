@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tugas01_no2.HelloController">
+   <children>
+      <Pane prefHeight="420.0" prefWidth="400.0" styleClass="mainpane" stylesheets="@HelloStyle.css">
+         <children>
+            <Pane fx:id="btn7" layoutX="6.0" layoutY="98.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="7">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn8" layoutX="94.0" layoutY="98.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="8">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn9" layoutX="182.0" layoutY="98.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="9">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnDivide" layoutX="294.0" layoutY="98.0" onMouseClicked="#onOperateClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="30.0" layoutY="10.0" text="/">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn4" layoutX="6.0" layoutY="178.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="4">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn5" layoutX="94.0" layoutY="178.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="5">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn6" layoutX="182.0" layoutY="178.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="6">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnMultiple" layoutX="294.0" layoutY="178.0" onMouseClicked="#onOperateClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="30.0" layoutY="14.0" text="*">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn1" layoutX="6.0" layoutY="258.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="1">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn2" layoutX="94.0" layoutY="258.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="2">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn3" layoutX="182.0" layoutY="258.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="3">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnMinus" layoutX="294.0" layoutY="258.0" onMouseClicked="#onOperateClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="30.0" layoutY="10.0" text="-">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnClear" layoutX="6.0" layoutY="338.0" onMouseClicked="#onOperateClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="26.0" layoutY="10.0" text="C">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btn0" layoutX="94.0" layoutY="338.0" onMouseClicked="#onNumberClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="27.0" layoutY="10.0" text="0">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnEqual" layoutX="182.0" layoutY="338.0" onMouseClicked="#onOperateClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="24.0" layoutY="10.0" text="=">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnPlus" layoutX="294.0" layoutY="338.0" onMouseClicked="#onOperateClicked" prefHeight="75.0" prefWidth="75.0" styleClass="btn" stylesheets="@HelloStyle.css">
+               <opaqueInsets>
+                  <Insets left="5.0" right="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label layoutX="25.0" layoutY="10.0" text="+">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="95.0" prefWidth="400.0" styleClass="highlight" stylesheets="@HelloStyle.css">
+               <children>
+                  <Label fx:id="lblResult" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="10.0" layoutY="22.0" prefHeight="55.0" prefWidth="371.0" text="0.0" textAlignment="JUSTIFY">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
